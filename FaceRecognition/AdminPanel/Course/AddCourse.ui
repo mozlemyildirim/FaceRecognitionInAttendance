@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AdminAddCourse</class>
+ <widget class="QMainWindow" name="AdminAddCourse">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>352</width>
+    <height>375</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Add Course</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(186, 186, 186);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>0</y>
+      <width>204</width>
+      <height>184</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Rockwell Condensed&quot;;
+color: rgb(0, 0, 127);</string>
+         </property>
+         <property name="text">
+          <string>DEPARTMENT :</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Rockwell Condensed&quot;;
+color: rgb(0, 0, 127);</string>
+         </property>
+         <property name="text">
+          <string>COURSE :</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Rockwell Condensed&quot;;
+color: rgb(0, 0, 127);</string>
+         </property>
+         <property name="text">
+          <string>DAY:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Rockwell Condensed&quot;;
+color: rgb(0, 0, 127);</string>
+         </property>
+         <property name="text">
+          <string>START HOUR:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_5">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Rockwell Condensed&quot;;
+color: rgb(0, 0, 127);</string>
+         </property>
+         <property name="text">
+          <string>END HOUR:</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="0" column="1">
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QComboBox" name="dept_Combo">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Rockwell Condensed&quot;;
+color: rgb(255,255,255);</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="txt_Course">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Rockwell Condensed&quot;;
+color: rgb(255,255,255);</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="txt_Day">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Rockwell Condensed&quot;;
+color: rgb(255,255,255);</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="txt_StartHour">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Rockwell Condensed&quot;;
+color: rgb(255,255,255);</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="txt_EndHour">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Rockwell Condensed&quot;;
+color: rgb(255,255,255);</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="btn_Add">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(136, 136, 136);
+color: rgb(255, 255, 255);
+font: 12pt &quot;Rockwell Condensed&quot;;</string>
+       </property>
+       <property name="text">
+        <string>ADD</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>200</y>
+      <width>181</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/newPrefix/Aydin.png);
+image: url(:/newPrefix/Aydin.png);
+image: url(:/newPrefix/Aydin.png);
+image: url(:/newPrefix/Aydin.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>352</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="../../../../Documents/masaüstü/asd.qrc"/>
+ </resources>
+ <connections/>
+</ui>

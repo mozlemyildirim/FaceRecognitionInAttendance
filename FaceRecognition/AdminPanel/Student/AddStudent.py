@@ -1,0 +1,195 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'AddStudent.ui'
+#
+# Created by: PyQt5 UI code generator 5.12.1
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_AdminAddStudent(object):
+    def setupUi(self, AdminAddStudent):
+        AdminAddStudent.setObjectName("AdminAddStudent")
+        AdminAddStudent.resize(431, 502)
+        AdminAddStudent.setStyleSheet("background-color: rgb(186, 186, 186);")
+        self.centralwidget = QtWidgets.QWidget(AdminAddStudent)
+        self.centralwidget.setObjectName("centralwidget")
+        self.layoutWidget = QtWidgets.QWidget(self.centralwidget)
+        self.layoutWidget.setGeometry(QtCore.QRect(90, 30, 251, 237))
+        self.layoutWidget.setObjectName("layoutWidget")
+        self.gridLayout = QtWidgets.QGridLayout(self.layoutWidget)
+        self.gridLayout.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout.setObjectName("gridLayout")
+        self.label_5 = QtWidgets.QLabel(self.layoutWidget)
+        font = QtGui.QFont()
+        font.setFamily("Rockwell Condensed")
+        font.setPointSize(12)
+        font.setBold(False)
+        font.setItalic(False)
+        font.setWeight(50)
+        self.label_5.setFont(font)
+        self.label_5.setStyleSheet("font: 12pt \"Rockwell Condensed\";\n"
+"color: rgb(0, 0, 127);")
+        self.label_5.setObjectName("label_5")
+        self.gridLayout.addWidget(self.label_5, 7, 0, 1, 1)
+        self.label_6 = QtWidgets.QLabel(self.layoutWidget)
+        font = QtGui.QFont()
+        font.setFamily("Rockwell Condensed")
+        font.setPointSize(12)
+        font.setBold(False)
+        font.setItalic(False)
+        font.setWeight(50)
+        self.label_6.setFont(font)
+        self.label_6.setStyleSheet("font: 12pt \"Rockwell Condensed\";\n"
+"color: rgb(0, 0, 127);")
+        self.label_6.setObjectName("label_6")
+        self.gridLayout.addWidget(self.label_6, 8, 0, 1, 1)
+        self.txt_BirthPlace = QtWidgets.QLineEdit(self.layoutWidget)
+        self.txt_BirthPlace.setStyleSheet("font: 12pt \"Rockwell Condensed\";\n"
+"color: rgb(255,255,255);")
+        self.txt_BirthPlace.setObjectName("txt_BirthPlace")
+        self.gridLayout.addWidget(self.txt_BirthPlace, 8, 1, 1, 1)
+        self.dateEdit = QtWidgets.QDateEdit(self.layoutWidget)
+        self.dateEdit.setStyleSheet("font: 12pt \"Rockwell Condensed\";\n"
+"color: rgb(255,255,255);")
+        self.dateEdit.setMaximumDateTime(QtCore.QDateTime(QtCore.QDate(2015, 12, 31), QtCore.QTime(23, 59, 59)))
+        self.dateEdit.setMaximumDate(QtCore.QDate(2015, 12, 31))
+        self.dateEdit.setMinimumDate(QtCore.QDate(1920, 9, 15))
+        self.dateEdit.setCurrentSection(QtWidgets.QDateTimeEdit.DaySection)
+        self.dateEdit.setCurrentSectionIndex(0)
+        self.dateEdit.setDate(QtCore.QDate(1998, 3, 18))
+        self.dateEdit.setObjectName("dateEdit")
+        self.gridLayout.addWidget(self.dateEdit, 7, 1, 1, 1)
+        self.label_4 = QtWidgets.QLabel(self.layoutWidget)
+        font = QtGui.QFont()
+        font.setFamily("Rockwell Condensed")
+        font.setPointSize(12)
+        font.setBold(False)
+        font.setItalic(False)
+        font.setWeight(50)
+        self.label_4.setFont(font)
+        self.label_4.setStyleSheet("font: 12pt \"Rockwell Condensed\";\n"
+"color: rgb(0, 0, 127);")
+        self.label_4.setObjectName("label_4")
+        self.gridLayout.addWidget(self.label_4, 6, 0, 1, 1)
+        self.txt_FatherName = QtWidgets.QLineEdit(self.layoutWidget)
+        self.txt_FatherName.setStyleSheet("font: 12pt \"Rockwell Condensed\";\n"
+"color: rgb(255,255,255);")
+        self.txt_FatherName.setObjectName("txt_FatherName")
+        self.gridLayout.addWidget(self.txt_FatherName, 6, 1, 1, 1)
+        self.txt_StudentId = QtWidgets.QLineEdit(self.layoutWidget)
+        self.txt_StudentId.setStyleSheet("font: 12pt \"Rockwell Condensed\";\n"
+"color: rgb(255,255,255);")
+        self.txt_StudentId.setObjectName("txt_StudentId")
+        self.gridLayout.addWidget(self.txt_StudentId, 1, 1, 1, 1)
+        self.label_7 = QtWidgets.QLabel(self.layoutWidget)
+        font = QtGui.QFont()
+        font.setFamily("Rockwell Condensed")
+        font.setPointSize(12)
+        font.setBold(False)
+        font.setItalic(False)
+        font.setWeight(50)
+        self.label_7.setFont(font)
+        self.label_7.setStyleSheet("font: 12pt \"Rockwell Condensed\";\n"
+"color: rgb(0, 0, 127);")
+        self.label_7.setObjectName("label_7")
+        self.gridLayout.addWidget(self.label_7, 1, 0, 1, 1)
+        self.txt_Name = QtWidgets.QLineEdit(self.layoutWidget)
+        self.txt_Name.setStyleSheet("font: 12pt \"Rockwell Condensed\";\n"
+"color: rgb(255,255,255);")
+        self.txt_Name.setObjectName("txt_Name")
+        self.gridLayout.addWidget(self.txt_Name, 2, 1, 1, 1)
+        self.label = QtWidgets.QLabel(self.layoutWidget)
+        font = QtGui.QFont()
+        font.setFamily("Rockwell Condensed")
+        font.setPointSize(12)
+        font.setBold(False)
+        font.setItalic(False)
+        font.setWeight(50)
+        self.label.setFont(font)
+        self.label.setStyleSheet("font: 12pt \"Rockwell Condensed\";\n"
+"color: rgb(0, 0, 127);")
+        self.label.setObjectName("label")
+        self.gridLayout.addWidget(self.label, 0, 0, 1, 1)
+        self.txt_Tc = QtWidgets.QLineEdit(self.layoutWidget)
+        self.txt_Tc.setStyleSheet("font: 12pt \"Rockwell Condensed\";\n"
+"color: rgb(255,255,255);")
+        self.txt_Tc.setObjectName("txt_Tc")
+        self.gridLayout.addWidget(self.txt_Tc, 0, 1, 1, 1)
+        self.label_2 = QtWidgets.QLabel(self.layoutWidget)
+        font = QtGui.QFont()
+        font.setFamily("Rockwell Condensed")
+        font.setPointSize(12)
+        font.setBold(False)
+        font.setItalic(False)
+        font.setWeight(50)
+        self.label_2.setFont(font)
+        self.label_2.setStyleSheet("font: 12pt \"Rockwell Condensed\";\n"
+"color: rgb(0, 0, 127);")
+        self.label_2.setObjectName("label_2")
+        self.gridLayout.addWidget(self.label_2, 2, 0, 1, 1)
+        self.txt_Surname = QtWidgets.QLineEdit(self.layoutWidget)
+        self.txt_Surname.setStyleSheet("font: 12pt \"Rockwell Condensed\";\n"
+"color: rgb(255,255,255);")
+        self.txt_Surname.setObjectName("txt_Surname")
+        self.gridLayout.addWidget(self.txt_Surname, 3, 1, 1, 1)
+        self.label_3 = QtWidgets.QLabel(self.layoutWidget)
+        font = QtGui.QFont()
+        font.setFamily("Rockwell Condensed")
+        font.setPointSize(12)
+        font.setBold(False)
+        font.setItalic(False)
+        font.setWeight(50)
+        self.label_3.setFont(font)
+        self.label_3.setStyleSheet("font: 12pt \"Rockwell Condensed\";\n"
+"color: rgb(0, 0, 127);")
+        self.label_3.setObjectName("label_3")
+        self.gridLayout.addWidget(self.label_3, 3, 0, 1, 1)
+        self.btn_Add = QtWidgets.QPushButton(self.centralwidget)
+        self.btn_Add.setGeometry(QtCore.QRect(260, 280, 80, 25))
+        self.btn_Add.setStyleSheet("background-color: rgb(136, 136, 136);\n"
+"color: rgb(255, 255, 255);\n"
+"font: 12pt \"Rockwell Condensed\";")
+        self.btn_Add.setObjectName("btn_Add")
+        self.label_8 = QtWidgets.QLabel(self.centralwidget)
+        self.label_8.setGeometry(QtCore.QRect(150, 320, 141, 131))
+        self.label_8.setStyleSheet("image: url(Aydin.png);")
+        self.label_8.setText("")
+        self.label_8.setObjectName("label_8")
+        AdminAddStudent.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(AdminAddStudent)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 431, 21))
+        self.menubar.setObjectName("menubar")
+        AdminAddStudent.setMenuBar(self.menubar)
+        self.statusbar = QtWidgets.QStatusBar(AdminAddStudent)
+        self.statusbar.setObjectName("statusbar")
+        AdminAddStudent.setStatusBar(self.statusbar)
+
+        self.retranslateUi(AdminAddStudent)
+        QtCore.QMetaObject.connectSlotsByName(AdminAddStudent)
+
+    def retranslateUi(self, AdminAddStudent):
+        _translate = QtCore.QCoreApplication.translate
+        AdminAddStudent.setWindowTitle(_translate("AdminAddStudent", "Add Student"))
+        self.label_5.setText(_translate("AdminAddStudent", "BIRTHDATE:"))
+        self.label_6.setText(_translate("AdminAddStudent", "BIRTHPLACE:"))
+        self.dateEdit.setDisplayFormat(_translate("AdminAddStudent", "d.MM.yyyy"))
+        self.label_4.setText(_translate("AdminAddStudent", "FATHER NAME:"))
+        self.label_7.setText(_translate("AdminAddStudent", "STUDENT ID:"))
+        self.label.setText(_translate("AdminAddStudent", "TC:"))
+        self.label_2.setText(_translate("AdminAddStudent", "NAME:"))
+        self.label_3.setText(_translate("AdminAddStudent", "SURNAME:"))
+        self.btn_Add.setText(_translate("AdminAddStudent", "ADD"))
+
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    AdminAddStudent = QtWidgets.QMainWindow()
+    ui = Ui_AdminAddStudent()
+    ui.setupUi(AdminAddStudent)
+    AdminAddStudent.show()
+    sys.exit(app.exec_())

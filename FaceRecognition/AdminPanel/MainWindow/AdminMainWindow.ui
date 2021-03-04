@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AdminPanel</class>
+ <widget class="QMainWindow" name="AdminPanel">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>488</width>
+    <height>436</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AdminPanel</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(195, 195, 195);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="1" column="0">
+       <widget class="QPushButton" name="btn_Department">
+        <property name="font">
+         <font>
+          <family>Rockwell Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+background-color: rgb(122, 122, 122);color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>DEPARTMENT</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QPushButton" name="btn_StudentCourse">
+        <property name="font">
+         <font>
+          <family>Rockwell Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+background-color: rgb(122, 122, 122);color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>STUDENT COURSE</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QPushButton" name="btn_Capture">
+        <property name="font">
+         <font>
+          <family>Rockwell Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+background-color: rgb(122, 122, 122);color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>CAPTURE</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QPushButton" name="btn_Course">
+        <property name="font">
+         <font>
+          <family>Rockwell Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+background-color: rgb(122, 122, 122);color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>COURSE</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QPushButton" name="btn_Student">
+        <property name="font">
+         <font>
+          <family>Rockwell Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+background-color: rgb(122, 122, 122);color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>STUDENT</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QPushButton" name="btn_Assignment">
+        <property name="font">
+         <font>
+          <family>Rockwell Condensed</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+background-color: rgb(122, 122, 122);
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>ASSIGNMENT</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>488</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="../../../../Documents/masaüstü/asd.qrc"/>
+ </resources>
+ <connections/>
+</ui>

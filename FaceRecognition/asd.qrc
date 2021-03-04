@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>Aydin.png</file>
+  </qresource>
+</RCC>
